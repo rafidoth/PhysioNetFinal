@@ -17,8 +17,8 @@ from glob import glob
 # reference: https://github.com/akaraspt/deepsleepnet/
 channel = "EEG Fpz-Cz"
 TIME_WINDOW_SIZE = 100
-raw_data_folder = "input/"
-output_folder = "output/"
+raw_data_folder = "/content/PhysioNetFinal/data_processing/input"
+output_folder = "/content/PhysioNetFinal/data_processing/output"
 if not os.path.exists(raw_data_folder):
     os.makedirs(raw_data_folder)
 if not os.path.exists(output_folder):
