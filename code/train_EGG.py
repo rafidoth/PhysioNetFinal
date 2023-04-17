@@ -15,9 +15,9 @@ if torch.cuda.is_available():
 	torch.cuda.manual_seed(0)
 
 # Set a correct path to the seizure data file you downloaded
-PATH_TRAIN_FILE = "../data/training/"
-PATH_VALID_FILE = "../data/testing/"
-PATH_TEST_FILE = "../data/vaildation/"
+PATH_TRAIN_FILE = "/content/PhysioNetFinal/data/training"
+PATH_VALID_FILE = "/content/PhysioNetFinal/data/vaildation"
+PATH_TEST_FILE = "/content/PhysioNetFinal/data/testing"
 
 # Path for saving model
 PATH_OUTPUT = "../output/physionet/"
